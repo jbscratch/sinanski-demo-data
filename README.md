@@ -7,7 +7,7 @@ A demo repo for @the_real_sinan for demo-data package in typescript
 2. `npm start` - runs 
     - `npm run build` to build the typescript sources and 
     - `tsx example/main.ts` to demonstrate the use of the compiled output. 
-3. Look at the code, especially the settings in tsconfig.json 
+3. Look at the code, especially the settings in tsconfig.json and the scripts in package.json
 4. For in-depth information, please look at the commits in this repo here
    (I tried to make them very readable for you!):  
    https://github.com/jbscratch/sinanski-demo-data/commits/main
