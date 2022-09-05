@@ -14,11 +14,13 @@
   "main": "index.ts",
   "types": "dist/index.d.ts",
   "scripts": {
-    "prestart": "npm run build",
     "start": "tsx ./example/main.ts",
+    "prestart": "npm run build",
     "build": "tsc",
     "deploy": "npm publish",
-    "try": "npm publish --dry-run"
+    "predeploy": "npm run build",
+    "try": "npm publish --dry-run",
+    "pretry": "npm run build"
   },
   "files": [
     "./README.md",
