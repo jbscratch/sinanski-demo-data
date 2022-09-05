@@ -14,6 +14,8 @@
   "main": "index.ts",
   "types": "dist/index.d.ts",
   "scripts": {
+    "prestart": "npm run build",
+    "start": "tsx ./example/main.ts",
     "build": "tsc",
     "deploy": "npm publish",
     "try": "npm publish --dry-run"
@@ -24,6 +26,7 @@
     "./package.json"
   ],
   "devDependencies": {
+    "tsx": "^3.9.0",
     "typescript": "^4.6.4"
   }
 }
