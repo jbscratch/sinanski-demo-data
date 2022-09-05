@@ -16,7 +16,11 @@ A demo repo for @the_real_sinan for demo-data package in typescript
       from your Package Folder (generals/src/constructors/DemoData)
       to the state of this repo. 
 
-5. If you have more questions, **Feel free to ask! :)**
+5. Run 'npm run try' to see, which files would be included when publishing the library
+
+6. Run `npm run deploy` to finally deploy the library! - This is only an alias for `npm publish` ;) 
+
+7. If you have more questions, **Feel free to ask! :)**
 
 ## Original Readme added below: 
 
