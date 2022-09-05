@@ -1,7 +1,22 @@
 # sinanski-demo-data
 A demo repo for @the_real_sinan for demo-data package in typescript
 
+## @Sinan: How to use this Repo
 
+1. Git Clone 
+2. `npm start` - runs 
+    - `npm run build` to build the typescript sources and 
+    - `tsx example/main.ts` to demonstrate the use of the compiled output. 
+3. Look at the code, especially the settings in tsconfig.json 
+4. For in-depth information, please look at the commits in this repo here
+   (I tried to make them very readable for you!):  
+   https://github.com/jbscratch/sinanski-demo-data/commits/main
+
+   => These commits are the EXACT steps i took to come 
+      from your Package Folder (generals/src/constructors/DemoData)
+      to the state of this repo. 
+
+5. If you have more questions, **Feel free to ask! :)**
 
 ## Original Readme added below: 
 
