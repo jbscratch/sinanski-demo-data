@@ -12,10 +12,17 @@
   "version": "0.1.5",
   "license": "MIT",
   "main": "index.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "deploy": "npm publish"
+    "deploy": "npm publish",
+    "try": "npm publish --dry-run"
   },
+  "files": [
+    "./README.md",
+    "./dist/**/*",
+    "./package.json"
+  ],
   "devDependencies": {
     "typescript": "^4.6.4"
   }
