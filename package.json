@@ -1,0 +1,15 @@
+{
+  "name": "demo-data",
+  "description": "A helper to create some demo data for prototypes",
+  "keywords": ["demo","prototype","lorem ipsum", "placeholder", "dummy"],
+  "author": "sinanski",
+  "version": "0.1.5",
+  "license": "MIT",
+  "main": "index.ts",
+  "dependencies": {
+    "typescript": "^4.6.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
